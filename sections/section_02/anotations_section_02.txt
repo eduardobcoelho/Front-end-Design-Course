@@ -77,7 +77,8 @@ Video lessons 12.
 Video lessons 13.
 	position: absolute; --> The element is positioned absolutely to the next element that is abive him at the hierarchy.
 	Margin collapse: is when the "father" and the "son" have the same display type. Just the margin that collapse.
-	float: left; --> the elements float to the left.
+	float: left; --> the elements float to the left. The elements float under the screen.
+
+Video lessons 14.
 	border: 4px solid #9013F3; --> Proprieties of the border: width, model, color.
 	box-sizing: border-box; --> Put the border to inside of the box.
-	
