@@ -48,4 +48,8 @@ Video lessons 09.
 	The CSS priorize the class because the class has priority under the raw element.
 	The CSS respect a cascade hierarchy, where when we have more than one formatation in a same element of the HTML, the last write is the chosen. But, if the element has a class and this class is being altered in the CSS, the CSS will priorize the class.
 
-
+Video lessons 10.
+Typography in the web:
+	WEB safe fonts: the fonts that the most of browsers have embedded.
+	WEB fonts: fonts in general that aren't safe. Today, you can use the web fonts without problems. Basically you just have to say to the browser where the font can be finded; the browser do the download of the font and save. So, with this, every user can acess the website with the fonts that you choosed.
+	Font's repositorys: Google Fonts, Adobe Edge Fonts, Typekit, Font Squirrel, Fontpair.
