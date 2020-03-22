@@ -1,0 +1,47 @@
+Video lessons 04.
+Html's structure:
+	<html> --> Basic elements
+		<head> --> Page's informations
+		</head>
+
+		<body> --> Received the tags(header, main, footer, etc)
+			<header>
+			</header>
+		
+			<main>
+			</main>
+
+			<footer>
+			</footer>
+		</body>
+
+	</html>
+
+Video lessons 06.
+Tags:
+	<p>Pragraph's tag</p>
+	<h1>Title's tag</h1>
+	<div></div> --> Hybrid tag that is usually used to create a layout bloc
+	<asidebar></asidebar> Layout's tag to sidebars
+
+Semantic:
+	The right use of tags in a creation of a page's html.
+
+Video lessons 07.
+What is css?:
+	It is a language of style's sheets. It's used to define the visual apresentation of documents written in a markup language like HTML or XML. With him, you can atribute colours, fonts famylis, sizes, and many others formatations to HTML tags.
+	CSS3 is the most updated version of the CSS.
+
+Sintaxe CSS:
+	CSS are write of this way: - h1 { color: #FF9900; } where h1 is the selector, color is the propriety and #FF9900 is the value.
+
+Sintaxe of classes in CSS:
+	.class-name { propriety: value; }
+
+Video lessons 08.
+Forms of use CSS:
+	CSS inline: write the CSS formatation in the opening tag of an element. Exemple: <h1 style="color: #000; font-size: 10px; font-family: 'Arial';"></h1>
+	CSS in head: write the CSS formatation in the <head></head> with the tag <style></style>
+	 
+
+	
