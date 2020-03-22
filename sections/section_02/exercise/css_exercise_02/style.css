@@ -46,3 +46,8 @@ main {
     color: #9013fe;
     margin: 0px;
  }
+
+ .card .card-footer {
+     width: 100%;
+     display: table;
+ }

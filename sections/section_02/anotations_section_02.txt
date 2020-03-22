@@ -107,4 +107,9 @@ Video lessons 21, 22.
 	line-height: 24px; --> the height of the line.
 	font-weight: bold/800px/400px etc --> to put the propriety "bold" to a font.
 
+Video lessons 23.
+	<button></button> --> buttons tag.
+	<a href"www.site.com.br"></a> --> Normally used to atribute a web link to something.
+
+
 
