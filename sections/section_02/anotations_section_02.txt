@@ -66,3 +66,14 @@ Differents ways to write colour code:
 	Abbreviated hexadecimal format --> .txt-green { color: ; #3C6; } --> #33CC66 --> 12 bit color (4.096)
 	Color names --> .txt-laranja { color: orange; } -->  x11 color names
 	
+Video lessons 12.
+	If you want, when you will start to give propriets to a layout's element, starts with the width, height, colour and display.
+	body { margin: 0; } --> This is to take out the margin of the body.
+	When you atribute - Width: 100% - , you want to say that the width of the element choosed will be of 100% the width of the screen.
+	margin-left: auto and margin-right: auto --> This is to centralize an element.
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15); --> Proprieties of the box shadow effect.
+	border-radius: 10px; --> This is to define that the border of the element will have a curvature of 10px.
+
+Video lessons 13.
+	position: absolute; --> The element is positioned absolutely to the next element that is abive him at the hierarchy.
+	Margin colapse: is when the "father" and the "son" have the same display type.
