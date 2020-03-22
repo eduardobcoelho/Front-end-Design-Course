@@ -88,3 +88,12 @@ Video lessons 15.
 
 Video lessons 16.
 	a deep explication about displays.
+
+Video lessons 17.
+Design Patterns:
+	A default to do the things.
+
+Atomic Design:
+	Atoms --> Molecules --> Templates --> Organisms --> Pages.
+	http://atomicdesign.bradfrost.com/
+	https://bradfrost.com/blog/post/atomic-web-design/ --> HTML periodic table.
