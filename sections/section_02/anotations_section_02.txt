@@ -36,12 +36,16 @@ Sintaxe CSS:
 	CSS are write of this way: - h1 { color: #FF9900; } where h1 is the selector, color is the propriety and #FF9900 is the value.
 
 Sintaxe of classes in CSS:
-	.class-name { propriety: value; }
+	.class-name { propriety: value; }.
 
 Video lessons 08.
 Forms of use CSS:
-	CSS inline: write the CSS formatation in the opening tag of an element. Exemple: <h1 style="color: #000; font-size: 10px; font-family: 'Arial';"></h1>
-	CSS in head: write the CSS formatation in the <head></head> with the tag <style></style>
-	 
+	CSS inline: write the CSS formatation in the opening tag of an element. Exemple: <h1 style="color: #000; font-size: 10px; font-family: 'Arial';"></h1>.
+	CSS in head: write the CSS formatation in the <head></head> with the tag <style></style>.
 
-	
+Video lessons 09.
+	CSS linked to html: write the CSS in a different file ".css" and link to the html with <link rel="stylesheet" type="text/css" href="file.css" />
+	The CSS priorize the class because the class has priority under the raw element.
+	The CSS respect a cascade hierarchy, where when we have more than one formatation in a same element of the HTML, the last write is the chosen. But, if the element has a class and this class is being altered in the CSS, the CSS will priorize the class.
+
+
