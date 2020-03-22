@@ -103,6 +103,8 @@ Video lessons 18, 19 and 20.
 	<img src="" alt="" title="" /> --> alt is for acessibility. "title" is a naming for the pic.
 	.card > img --> ">" select the next "son" that is inside of ".card".
 
-Video lessons 21.
+Video lessons 21, 22.
+	line-height: 24px; --> the height of the line.
+	font-weight: bold/800px/400px etc --> to put the propriety "bold" to a font.
 
 

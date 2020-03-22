@@ -31,3 +31,18 @@ main {
     border-radius: 6px;
     display: block;
  }
+
+ .card .card-body {
+    width: 100%;
+    display: table;
+    margin-top: 13px;
+ }
+
+ .card .card-body h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 800; /* tom de negrito na font */
+    line-height: 24px; /* altura da linha do texto */
+    color: #9013fe;
+    margin: 0px;
+ }
