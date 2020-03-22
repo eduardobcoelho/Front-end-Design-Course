@@ -98,4 +98,7 @@ Atomic Design:
 	http://atomicdesign.bradfrost.com/
 	https://bradfrost.com/blog/post/atomic-web-design/ --> HTML periodic table.
 
-Video lessons 18 and 19.
+Video lessons 18, 19 and 20.
+	tag <img> --> tag used to load an image. <img src="" /> src is the diretory where the image is.
+	<img src="" alt="" title="" /> --> alt is for acessibility. "title" is a naming for the pic.
+	.card > img --> ">" select the next "son" that is inside of ".card".
