@@ -97,3 +97,5 @@ Atomic Design:
 	Atoms --> Molecules --> Templates --> Organisms --> Pages.
 	http://atomicdesign.bradfrost.com/
 	https://bradfrost.com/blog/post/atomic-web-design/ --> HTML periodic table.
+
+Video lessons 18 and 19.
