@@ -1,6 +1,6 @@
 body {
     background-color: #c8c8c8ce;
-    margin: 0px;
+    margin: 0px; /* put off the margin default of the body */
 }
 
 header {
@@ -8,27 +8,28 @@ header {
     height: 60px;
     display: block;
     background-color: #9013F3;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15); /* Puts shadow in a box */
 }
 
 main {
     width: 1000px;
-    height: 800px;
-    display: block;
+    height: auto;
+    display: table;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 8px; /* Modify the border of a box */
     margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; /* Centralize the main in the middle of the body */
+    margin-right: auto; /* Centralize the main in the middle of the body */
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .box-container {
     width: 300px;
     margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 25px;
-    display: table;
-    float: left;
+    display: table; /* in this display: table, the height of the box-container will be defined according to the elements height inside of him */
+    float: left; /* the box is floating, under the screen, to the left */
 }
 
 .box {
@@ -38,7 +39,7 @@ main {
     background-color: #80c817;
     border-radius: 10px;
     border: 4px solid #9013F3;
-    box-sizing: border-box;
+    box-sizing: border-box; /* put the element's border inside of him */
 }
 
 .btn {
@@ -51,7 +52,7 @@ main {
     float: left;
 }
 
-.clearfix {
+.clearfix { /* barra separadora */
     width: 100%;
     height: 1px;
     display: block;

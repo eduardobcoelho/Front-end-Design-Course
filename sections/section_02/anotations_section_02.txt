@@ -84,4 +84,7 @@ Video lessons 14.
 	box-sizing: border-box; --> Put the border to inside of the box.
 
 Video lessons 15.
-	display: table; generates the height of the box according with the elements that him have inside.
+	display: table; define the height of the box according with the elements inside of him.
+
+Video lessons 16.
+	a deep explication about displays.
