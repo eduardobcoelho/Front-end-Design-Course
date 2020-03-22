@@ -53,3 +53,16 @@ Typography in the web:
 	WEB safe fonts: the fonts that the most of browsers have embedded.
 	WEB fonts: fonts in general that aren't safe. Today, you can use the web fonts without problems. Basically you just have to say to the browser where the font can be finded; the browser do the download of the font and save. So, with this, every user can acess the website with the fonts that you choosed.
 	Font's repositorys: Google Fonts, Adobe Edge Fonts, Typekit, Font Squirrel, Fontpair.
+
+Video lessons 11.
+Working with colours:
+	The colours in a eletronic dispositive screen that exist colours, they are formed by the combination of light's points RGB(Red, Green, Blue).
+	The total absence of light's points results in the black color.
+	The fully of light's points - (255, 255, 255) - results in the white color.
+
+Differents ways to write colour code:
+	RGB format --> .txt-green { color: rgb(51, 204, 102); } --> 24 bit color (16.777.216 cores)
+	Hexadecimal format --> .txt-green { color: #64DD89; } --> 24 bit color (16.777.216 cores)
+	Abbreviated hexadecimal format --> .txt-green { color: ; #3C6; } --> #33CC66 --> 12 bit color (4.096)
+	Color names --> .txt-laranja { color: orange; } -->  x11 color names
+	
