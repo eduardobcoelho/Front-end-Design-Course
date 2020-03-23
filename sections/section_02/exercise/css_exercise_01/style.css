@@ -17,6 +17,7 @@ main {
     display: table;
     background-color: #fff;
     border-radius: 8px; /* Modify the border of a box */
+    margin: 30px auto 0px auto;
     margin-top: 30px;
     margin-left: auto; /* Centralize the main in the middle of the body */
     margin-right: auto; /* Centralize the main in the middle of the body */
