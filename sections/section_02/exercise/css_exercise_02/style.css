@@ -9,6 +9,8 @@ main {
     margin: 100px auto 0 auto; /* margin-top ; margin-right ; margin-bottom ; margin-left */
 }
 
+/* CARD */
+
 .card-container {
     width: 270px;
     display: table;
@@ -47,7 +49,31 @@ main {
     margin: 0px;
  }
 
- .card .card-footer {
-     width: 100%;
-     display: table;
+.card .card-footer{
+   width: 100%;
+   display: table;
+}
+
+ /* BOTÕES */
+ .card .card-footer .btn {
+    width: 100%;
  }
+ 
+.btn {
+   width: auto;
+   height: 40px;
+   display: table;
+   background-color: #30e493;
+   border-radius: 4px;
+   margin-top: 12px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: none;
+   line-height: 40px;
+   padding: 0px 30px;
+   box-sizing: border-box;
+
+}

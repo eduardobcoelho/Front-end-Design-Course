@@ -111,5 +111,9 @@ Video lessons 23.
 	<button></button> --> buttons tag.
 	<a href"www.site.com.br"></a> --> Normally used to atribute a web link to something.
 
+Video lessons 24.
+	text-transform: uppercase etc --> font model.
+	text-decoration: none --> put off all the decorations of the fonte.
+
 
 
