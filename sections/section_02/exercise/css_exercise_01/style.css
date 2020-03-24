@@ -26,9 +26,7 @@ main {
 
 .box-container {
     width: 300px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
+    margin: 25px 0px 25px 25px;
     display: table; /* in this display: table, the height of the box-container will be defined according to the elements height inside of him */
     float: left; /* the box is floating, under the screen, to the left */
 }
@@ -50,7 +48,6 @@ main {
     border-radius: 4px;
     display: block;
     margin-top: 25px;
-    float: left;
 }
 
 .clearfix { /* barra separadora */

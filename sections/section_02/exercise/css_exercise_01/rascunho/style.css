@@ -5,7 +5,7 @@ body {
 
 header {
     width: 100%;
-    height: auto;
+    height: 60px;
     display: block;
     background-color: #9013fe;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
