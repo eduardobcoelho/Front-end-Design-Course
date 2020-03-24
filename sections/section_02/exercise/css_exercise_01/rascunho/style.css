@@ -5,48 +5,99 @@ body {
 
 header {
     width: 100%;
-    height: 60px;
+    height: auto;
+    display: flex;
     background-color: #9013fe;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+header .container-title {
+    width: 170px;
+    height: auto;
+    display: table;
+    margin-right: 10px;
+}
+
+.container-title .title {
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 800;
+    color: lightgreen;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin: 0px;
+}
+
+header .container-search-bar {
+    width: 300px;
+    height: auto;
+    display: table;
+}
+
+.container-search-bar .search-bar {
+    width: 100%;
+    height: 30px;
     display: block;
+    background-color: lightgrey;
+    border-radius: 4px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-main {
+.search-bar p {
+    height: 30px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+    color: #4e4e4e;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 0px 0px 0px 10px;
+}
+
+
+main{
     width: 1000px;
     height: auto;
     background-color: #fff;
-    border-radius: 8px;
     display: table;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
     margin: 30px auto 0px auto;
     padding-bottom: 25px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
 }
 
 .box-container {
     width: 300px;
-    max-width: 100%;
     height: auto;
     display: table;
+    margin: 25px 0px 0px 25px;
     float: left;
-    margin-top: 25px;
-    margin-left: 25px;
 }
 
-.box {
+.box-container .box {
     width: 100%;
     height: 200px;
-    background-color: #80E817;
-    border-radius: 10px;
+    background-color: lightgreen;
     display: block;
-    border: 4px solid #9013fe;
+    border: 2.5px solid #9013fe;
     box-sizing: border-box;
+    border-radius: 8px;
 }
 
-.btn{
+.box-container .button {
     width: 100%;
-    height: 44px;
+    height: 45px;
     background-color: #9013fe;
     display: block;
-    margin-top: 25px;
-    float: left;
+    border-radius: 4px;
+    margin: 25px 0px 0px 0px;
+
 }
