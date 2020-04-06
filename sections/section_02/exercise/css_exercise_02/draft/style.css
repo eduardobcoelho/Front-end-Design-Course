@@ -48,7 +48,7 @@ main {
     box-sizing: border-box;
 }
 
-.card-image {
+.card-header .card-image {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -56,7 +56,11 @@ main {
     border-radius: 6px;
 }
 
-.card-title {
+.card-header .card-image-top {
+    margin-top: -55px;
+}
+
+.card-body .card-title {
     width: 100%;
     height: auto;
     display: inline-block;
@@ -69,7 +73,7 @@ main {
     margin: 15px auto 0px auto;
 }
 
-.card-description {
+.card-body .card-description {
     width: 100%;
     height: auto;
     display: inline-block;
@@ -82,7 +86,7 @@ main {
     margin: 13px auto 0px auto;
 }
 
-.name-button {
+.btn {
     width: auto;
     height: 100%;
     display: inline-block;
