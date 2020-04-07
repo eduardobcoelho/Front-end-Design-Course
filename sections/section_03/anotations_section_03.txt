@@ -1,0 +1,2 @@
+Video lessons 26.
+Layout web: the structure and form that the site will present your content visually. This content's organization on the screen must be built in a way that consider a good experience to the user, facilitating the interation between user and interface in computers and mobile devices(responsive layout), and also enable an easy compreehension of the elements distributed on the layout (button, forms, texts, images, videos, etc.)
