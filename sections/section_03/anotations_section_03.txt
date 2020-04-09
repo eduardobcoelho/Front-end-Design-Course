@@ -32,4 +32,6 @@ Video lessons 28.
 Just demonstration of how to use Media Queries.
 
 Video lessons 29.
-    Grid systems
+    Introduction to gryd systems and CSS frameworks.
+
+Video lessons 30.
