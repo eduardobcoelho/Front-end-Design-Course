@@ -16,5 +16,17 @@ Media Queries:
 
 How to use:
     @media only screen and (min-width: 554px) {
+        .aleatory-class {
+
+        }
 
     } --> The css gonna function when the width is bigger or equal to 554px. In this case, 554px is the breakpoint
+
+    @media only screen and (min-width: 992px) {
+        .aleatory-class {
+            
+        }
+    }
+
+Video lessons 28.
+
