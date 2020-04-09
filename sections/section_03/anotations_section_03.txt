@@ -17,4 +17,4 @@ Media Queries:
 How to use:
     @media only screen and (min-width: 554px) {
 
-    } --> The css gonna function when the width is than or equal to 554px.
+    } --> The css gonna function when the width is bigger or equal to 554px. In this case, 554px is the breakpoint
