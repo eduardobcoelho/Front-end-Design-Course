@@ -1,2 +1,20 @@
 Video lessons 26.
-Layout web: the structure and form that the site will present your content visually. This content's organization on the screen must be built in a way that consider a good experience to the user, facilitating the interation between user and interface in computers and mobile devices(responsive layout), and also enable an easy compreehension of the elements distributed on the layout (button, forms, texts, images, videos, etc.)
+Layout web: 
+    The structure and form that the site will present your content visually. This content's organization on the screen must be built in a way that consider a good experience to the user, facilitating the interation between user and interface in computers and mobile devices(responsive layout), and also enable an easy compreehension of the elements distributed on the layout (button, forms, texts, images, videos, etc).)
+
+Layout types:
+    Fixed: it has fixed measures to your layout's elements, indepedent of screen's resolution.
+    Fluid: the elements has measures that is defined with a percent value (%) that vary according to the screen's width and height. The fluid layout doesn't consider the device screen's resolution.
+    Responsive: the elements are resized and grouped of differents ways according to the screen's resolution, making that the navegation experience be optimized to every resolution.
+    Organic: it doesn't exist a fixed grid and the elements are scattered of an organic way around the layout, so that every page has a different diagramation without be limited to columns.
+    Material: it's a layout concept introduced by Google, where the main concept consists in explore the layout based in the printed materials design, where the three-dimensional space is worked from the relation between light, shadow and moviment using three dimensions (axes X, Y e Z).
+
+Video lessons 27.
+Controlling the responsivity of your interface with Media Queries.
+Media Queries:
+    It's a CSS's module that allows us to determine specifics styles of a HTML for determinated media. Also allows us to define a break or a starting point (breakpoint) for that a styles set can be aplicated to a HTML element.
+
+How to use:
+    @media only screen and (min-width: 554px) {
+
+    } --> The css gonna function when the width is than or equal to 554px.
