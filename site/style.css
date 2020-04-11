@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-image: linear-gradient(to right, #772953, #E95420);
+}
+
+body {
+    background-color: lightgrey;
+}
+
+main {
+    width: 70%;
+    display: table;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.img-container {
+    max-width: 100%;
+}
+

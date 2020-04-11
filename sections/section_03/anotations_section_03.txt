@@ -53,3 +53,6 @@ Video lessons 31.
     The bootstrap says that the columns has to be inside a row and, if possible, inside of a container.
     class = "container-fluid" occupy all the width.
     When the sum of the column's values doesn't result in 12, it's recommended that you use in the div class row the justify-content-center (class="row justify-content-center"). With this, the elements of the container and row elements will be alligned at the center. 
+
+Video lessons 32.
+    
