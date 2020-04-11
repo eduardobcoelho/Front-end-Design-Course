@@ -35,3 +35,21 @@ Video lessons 29.
     Introduction to gryd systems and CSS frameworks.
 
 Video lessons 30.
+    Grids:
+        It's a layout structuring of web pages.
+        Grids isn't a must for sites development, but the use a grid system helps to mantain consistency of the aligment of page's elements, organize the interface's elements, also facilitate the front-end development and helps other webdesigners that can work later in the same project.
+
+    Frameworks and GRIDS CSS:
+        The framework that will be used in this project is the Bootstrap; https://getbootstrap.com/docs/3.4/css/
+        The grid system divides our layout's width in 12 columns.
+        It isn't a must the use of all the 12 columns, you can use less or more. 
+
+    How it works?
+        The parts of a grid system is represented by a div with a class that has a default: col-sm-6 ; col-md-5 ; col-lg-6
+        Basically you have the "col" that is "column", "sm" "md" or "lg" that is the view - so, you have the small, medium and large - and the number "1<=x<=12" that represents the number of columns that the div will occupy.
+        The bootstrap default breakpoint says that when the prefix was .col- (0px<x<576px); .col-sm-(576px<x<768); .col-md-(768px<x<992); .col-lg-(992px<x<1200); .col-xl-(1200px<=x).
+
+Video lessons 31.
+    The bootstrap says that the columns has to be inside a row and, if possible, inside of a container.
+    class = "container-fluid" occupy all the width.
+    When the sum of the column's values doesn't result in 12, it's recommended that you use in the div class row the justify-content-center (class="row justify-content-center"). With this, the elements of the container and row elements will be alligned at the center. 
