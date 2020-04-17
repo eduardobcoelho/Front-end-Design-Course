@@ -71,4 +71,12 @@ Video lessons 33:
             flex-direction: row-reverse --> The elements will be aligned inversely flex-direction: row;
             flex-direction: column --> The ellements will occupy all the line and will be distributed one below the other; width: 100%;
             flex-direction: column-reverse --> Invert the order of the flex-direction: column.
-        
+    
+Video lessons 34.
+    If we put six items in the container and determine with the flex-basis that every item will have a width of 25%, so, the idea is that in a line will stay four items (totalizing 100% - 25 * 4) and two items below them. But this not happens because the "flex-direction: row" will be priorized and will force the container's items to be resized to a width percent - based on the 25% - that can distribute items in a row.
+    Container(father):
+        flex-wrap:
+            It has three proprieties: nowrap; wrap; wrap-reverse;
+            flex-wrap: nowrap --> Default;
+            flex-wrap: wrap --> With this command, we say that we wanna that the container's items take strictly the flex-basis value and the flex container will be regrouped to top from bottom;
+            flex-wrap: wrap-reverse --> Regroupe the items to bottom from top - a inverse way of wrap.
