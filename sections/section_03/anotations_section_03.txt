@@ -78,5 +78,10 @@ Video lessons 34.
         flex-wrap:
             It has three proprieties: nowrap; wrap; wrap-reverse;
             flex-wrap: nowrap --> Default;
-            flex-wrap: wrap --> With this command, we say that we wanna that the container's items take strictly the flex-basis value and the flex container will be regrouped to top from bottom;
+            flex-wrap: wrap --> With this command, we say that we wanna that the container's items take strictly the flex-basis value and the flex container will be regrouped to top from bottom in multiple lines;
             flex-wrap: wrap-reverse --> Regroupe the items to bottom from top - a inverse way of wrap.
+
+Video lessons 35.
+    Container(father):
+        
+    
