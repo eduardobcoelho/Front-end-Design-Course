@@ -61,3 +61,14 @@ Video lessons 32.
     Introduction to Flexbox.
     It is a propriety that allows pass to your sons other organization proprieties of layout. "Flexible --> Flex"
     Flexbox-guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Video lessons 33:
+    Container(father):
+        In flexbox model, it's necessary that the container has the display: flex. Basically the father div has to have a display: flex.
+        flex-direction: 
+            It can receveid until four values: row; row-reverse; column; column-reverse;
+            flex-direction: row --> The elements will be aligned in line;
+            flex-direction: row-reverse --> The elements will be aligned inversely flex-direction: row;
+            flex-direction: column --> The ellements will occupy all the line and will be distributed one below the other; width: 100%;
+            flex-direction: column-reverse --> Invert the order of the flex-direction: column.
+        
