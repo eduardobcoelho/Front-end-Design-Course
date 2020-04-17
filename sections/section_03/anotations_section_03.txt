@@ -58,4 +58,6 @@ Video lessons 31.
 	      -use the <div class="object-class container-fluid"></div> to define that the container will occupy 100% screen's width.
 
 Video lessons 32.
-    
+    Introduction to Flexbox.
+    It is a propriety that allows pass to your sons other organization proprieties of layout. "Flexible --> Flex"
+    Flexbox-guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
