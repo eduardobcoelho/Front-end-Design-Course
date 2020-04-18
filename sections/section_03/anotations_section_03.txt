@@ -90,6 +90,7 @@ Video lessons 35.
 
         Justify-content:
             It's a way to organize the flexbox elements;
+            It has six proprieties: flex-start | flex-end | center | space-beteen | space-around | space-evenly;
             flex-start: the elements will aligned at the left size;
             flex-end: the elements will aligned at the right size;
             center: the elements will be aligned at the center of the page;
@@ -100,6 +101,10 @@ Video lessons 35.
 Video lessons 36.
     Container(father):
         align-items: 
-
-        
-    
+            It works in the reverse flex-direction axis, if your flex-direction was row (axis x) the align items will aligned the items in the axis Y and the inverse to columns;
+            It has five proprieties: stretch | flex-start/start/self-start | flex-end/end/self-end | center | baseline;
+            stretch: is the default, basically the elements occupy 100% of the container axis;
+            flex-start: align items at the container top. In the event of you don't define the height, the flex-start will get the min-height;
+            flex-end: align items at the container bottom, end of the container;
+            center: centralize the items at the page center;
+            baseline: align according to the content in the flex item;
