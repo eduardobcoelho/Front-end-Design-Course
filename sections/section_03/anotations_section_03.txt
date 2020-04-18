@@ -97,5 +97,9 @@ Video lessons 35.
             space-around: puts a space around every element, it's like a "margin" around every element;
             space-evenly: puts a EQUAL space between every element;
 
+Video lessons 36.
+    Container(father):
+        align-items: 
+
         
     
