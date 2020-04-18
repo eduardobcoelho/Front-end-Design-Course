@@ -95,7 +95,7 @@ Video lessons 35.
             flex-end: the elements will aligned at the right size;
             center: the elements will be aligned at the center of the page;
             space-between: puts the initial item and the last item in the page's border and divide the items with the same spacement between them;
-            space-around: puts a space around every element, it's like a "margin" around every element;
+            space-around: puts a same space around every element, it's like a "margin" around every element;
             space-evenly: puts a EQUAL space between every element;
 
 Video lessons 36.
@@ -112,4 +112,12 @@ Video lessons 36.
 Video lessons 37.
     Container(father):
         Align-content:
-            
+            Align an items group - multiples lines -, it workds for all the lines;
+            It has proprieties: flex-start | flex-end | space-between | space-around | stretch(default);
+            flex-start: put the group of items at the container top;
+            flex-end: put the group of items at the bottom container;
+            space-between: puts the first items and last items group in the container bord and divide the groups with a equal space between them;
+            space-around: puts a same space around every element, it's like a "margin";
+            stretch: elements will take the max-value;
+
+
