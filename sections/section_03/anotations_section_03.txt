@@ -83,5 +83,19 @@ Video lessons 34.
 
 Video lessons 35.
     Container(father):
+        flex flow:
+            It's a form to resume the flex-wrap and flex-direction in one command;
+            The default is row and nowrap;
+            flex-flow: 'flex-direction' 'flex-wrap'.
+
+        Justify-content:
+            It's a way to organize the flexbox elements;
+            flex-start: the elements will aligned at the left size;
+            flex-end: the elements will aligned at the right size;
+            center: the elements will be aligned at the center of the page;
+            space-between: puts the initial item and the last item in the page's border and divide the items with the same spacement between them;
+            space-around: puts a space around every element, it's like a "margin" around every element;
+            space-evenly: puts a EQUAL space between every element;
+
         
     
