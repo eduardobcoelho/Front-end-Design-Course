@@ -108,3 +108,8 @@ Video lessons 36.
             flex-end: align items at the container bottom, end of the container;
             center: centralize the items at the page center;
             baseline: align according to the content in the flex item;
+
+Video lessons 37.
+    Container(father):
+        Align-content:
+            
