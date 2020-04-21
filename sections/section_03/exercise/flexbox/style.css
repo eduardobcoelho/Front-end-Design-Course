@@ -16,7 +16,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
-    align-content: space-around;
+    align-content: flex-start;
 } 
 
 .my-item {
@@ -25,5 +25,21 @@
     border-radius: 8px;
     padding: 30px;
     border: 4px solid #fff;
-    flex-basis: 25%;
+    flex-basis: 10%%;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
 }

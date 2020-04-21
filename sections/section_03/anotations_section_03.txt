@@ -122,5 +122,15 @@ Video lessons 37.
 
 Video lessons 38.
     Items(sons):
-        order:
+        Order: 
+            allows reorganize the container elements;
+            It works of this whay:
+                .order-1 {
+                    order: 1;
+                } 
+                If you put this class in a element, he will be the first of the items following the order that you defined;
+                If all the elements received the same class - by example: order-1 - the default will be choosed according to the HTML structure;
+                If you has ten elements and you just put the order in nine, the element that don't received any order will be the first, because he will receveid the value 0.
+    
+
             
