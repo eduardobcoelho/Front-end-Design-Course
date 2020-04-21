@@ -132,5 +132,7 @@ Video lessons 38.
                 If all the elements received the same class - by example: order-1 - the default will be choosed according to the HTML structure;
                 If you has ten elements and you just put the order in nine, the element that don't received any order will be the first, because he will receveid the value 0.
     
-
-            
+Video lessons 39.
+    Items(sons):
+        flex-grow:
+            use a empty space to grow up an element;
