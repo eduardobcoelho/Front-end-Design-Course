@@ -142,6 +142,8 @@ Video lessons 40.
     Items(sons):
         flex-shrink:
             It needs that the width sum of container's elements be bigger than the container's width for that the flex-shrink resize the container's elements;
-            it's the inverse of flex-grow;
-            
+            The values works in a inverse way of flex-grow;
+
+        flex-basis:
+            It's like a default width of an item that is inside a box.
 
