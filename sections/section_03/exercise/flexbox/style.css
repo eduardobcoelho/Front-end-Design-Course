@@ -25,7 +25,6 @@
     border-radius: 8px;
     padding: 30px;
     border: 4px solid #fff;
-    flex-basis: 300px;
 }
 
 .order-1 {
@@ -66,4 +65,20 @@
 
 .shrink-5 {
     flex-shrink: 5;
+}
+
+.flex-grow-3 {
+    flex: 3 2 auto;
+}
+
+.flex-grow-5 {
+    flex: 5 1 800px;
+}
+
+.flex-shrink-3 {
+    flex: 0 3 1500px;
+}
+
+.flex-shrink-5 {
+    flex: 2 5 1500px;
 }

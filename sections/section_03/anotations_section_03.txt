@@ -156,3 +156,7 @@ Video lessons 41.
             It isn't so practical because easily you lost the control of the items;
             It's recommended to use in cases that the flex-basis will be modified according to the flex-shrink or flex-grow value, so, in that way, you can create various cases with differents flex-basis;
             It's recommended to in cases that you will use a specific flex-shrink value for a flex-grow or inverse. Anyway, exist many options for the use of flex.
+
+Video lessons 42.
+    Items(sons):
+        
