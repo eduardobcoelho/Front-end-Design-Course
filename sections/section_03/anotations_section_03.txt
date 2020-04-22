@@ -147,3 +147,6 @@ Video lessons 40.
         flex-basis:
             It's like a default width of an item that is inside a box.
 
+Video lessons 41.
+    Items(sons):
+        
