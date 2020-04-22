@@ -135,4 +135,5 @@ Video lessons 38.
 Video lessons 39.
     Items(sons):
         flex-grow:
-            use a empty space to grow up an element;
+            use a empty space to grow up the elements;
+            it's responsive.
