@@ -149,4 +149,10 @@ Video lessons 40.
 
 Video lessons 41.
     Items(sons):
-        
+        flex:
+            It's a way to define the flex-grow, flex-shrink and flex-basis in one line - shorthand;
+            flex: flex-grow | flex-shrink | flex-basis;
+            The default value of the flex-grow is 0, flex-shrink is 1 and flex-basis is auto;
+            It isn't so practical because easily you lost the control of the items;
+            It's recommended to use in cases that the flex-basis will be modified according to the flex-shrink or flex-grow value, so, in that way, you can create various cases with differents flex-basis;
+            It's recommended to in cases that you will use a specific flex-shrink value for a flex-grow or inverse. Anyway, exist many options for the use of flex.
