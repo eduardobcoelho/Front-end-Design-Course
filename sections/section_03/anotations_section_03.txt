@@ -136,4 +136,12 @@ Video lessons 39.
     Items(sons):
         flex-grow:
             use a empty space to grow up the elements;
-            it's responsive.
+            it's responsive: resized the elements according to the flex-grow value and the flex-basis.
+
+Video lessons 40.
+    Items(sons):
+        flex-shrink:
+            It needs that the width sum of container's elements be bigger than the container's width for that the flex-shrink resize the container's elements;
+            it's the inverse of flex-grow;
+            
+
