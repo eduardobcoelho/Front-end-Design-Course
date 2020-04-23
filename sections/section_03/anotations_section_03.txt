@@ -159,4 +159,7 @@ Video lessons 41.
 
 Video lessons 42.
     Items(sons):
-        
+        Align self:
+            Allows take an unic element in a row or a column and modify his alignment;
+            It can receive five values: 
+                align-self: auto | flex-start | flex-end | center | baseline | stretch;        

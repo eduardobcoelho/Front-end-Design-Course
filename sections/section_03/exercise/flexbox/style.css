@@ -15,7 +15,7 @@
     flex-wrap: wrap-reverse; */
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     align-content: center;
 } 
 
@@ -81,4 +81,16 @@
 
 .flex-shrink-5 {
     flex: 2 5 1500px;
+}
+
+.self-top {
+    align-self: flex-start;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-bottom {
+    align-self: flex-end;
 }
