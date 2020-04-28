@@ -1,2 +1,4 @@
-# Front-end-Design-Course
-This repository is turned to the Front-end Design course.
+# Section 03
+Layouts, Grids and Flexbox.
+
+Section status: finished.

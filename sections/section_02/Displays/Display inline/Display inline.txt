@@ -1,2 +1,0 @@
-1 - The display inline doesn't accept  width and height. The width and the height will be defined according to the element.
-2 - When you put a display inline to a element, the element wins the behavior of a word.

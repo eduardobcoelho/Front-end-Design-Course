@@ -1,2 +1,0 @@
-1 - It's a display that can set the elements inline and accepts the width and height.
-2 - It's a fusion between the display block and display inline. Including the behavior of a word.
