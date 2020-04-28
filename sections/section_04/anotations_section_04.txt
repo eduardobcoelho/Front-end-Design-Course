@@ -20,4 +20,10 @@ Video lesson 43.
                 A CSS class that stores all the animation.
 
 Video lesson 44.
-    
+    Transition:
+        Allows define what we want that change in the animation;
+        example:
+            transition: all; --> All the proprieties of the animation will affect the element;
+            transition: width; --> Just the width will be affected in the transition. 
+        example 2:
+            transition: all 3s ease-in; --> First he defines the elements that will be affected, after defines the animation duration and finally defines the animation effect; 
