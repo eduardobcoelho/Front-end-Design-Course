@@ -19,7 +19,7 @@ Video lesson 43.
             Addclass:
                 A CSS class that stores all the animation.
 
-Video lesson 44.
+Video lesson 44 and 45.
     Transition:
         Allows define what we want that change in the animation;
         example:
