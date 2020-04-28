@@ -30,4 +30,18 @@ Video lesson 44 and 45.
         Animation: | name | | duration | | play-state |;
 
 Video lesson 46.
+    You can separate the keyframes accordind to the % value that is relationed with the animation's duration;
+    Transform:
+        translate( valueX, valueY ); --> animate movement;
+        rotate( 180deg ); --> rotation;
+        scale( valueX, valueY ); --> 
+        skewX( 20deg )
+        skewY( 20deg )
+        matrix ( scaleX,skewY(),skewX(),scaleY(),translateX(),translateY() )
+        --------------------------------------------------------------------
+        translate3d( valueX, valueY, valueZ );
+        rotate3d( 180deg );
+        scale3d( valueX, valueY, valueZ, 90deg );
+        matrix (n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n);
+
     
