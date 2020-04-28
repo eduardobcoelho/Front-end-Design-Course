@@ -1,1 +1,23 @@
 Video lesson 43.
+    All the animation goes in a CSS class that is composed for all the proprieties below.
+    Animations with CSS;
+        Stages to animate a CSS element - keyframes.
+        Keyframes:
+            they are the frames of an animation;
+            moments of our animation. 
+
+        Transform proprieties:
+            Is the animation's transformation of a frame for another frame;
+            define the changes of every break.
+            Transition:
+                It's a way of modify the transform settings, smoothing the animations, by example;
+                It's basic the configuration of the transition.
+
+        Animation:
+            Propriety that applies in a div the animation that we want;
+            stores the keyframes, transform and transition proprieties.
+            Addclass:
+                A CSS class that stores all the animation.
+
+Video lesson 44.
+    
