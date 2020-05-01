@@ -45,4 +45,11 @@ Video lesson 46.
         matrix (n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n);
 
 Video lesson 47.
+    Vendor-Prefix:
+        It's a way of run the CSS animations in some browser versions;
+        -webkit-transform: translate{300px, 150px;} --> Safari 4+;
+        -moz-transform: translate(300px, 150px;) --> Firefox 5+;
+        -ms-transform: translate(300px, 150px;) --> IE 8 and 9;
+        transform: translate(300px, 150px) --> IE 10 + Firefox 29+;
+
     
