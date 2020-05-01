@@ -52,4 +52,6 @@ Video lesson 47.
         -ms-transform: translate(300px, 150px;) --> IE 8 and 9;
         transform: translate(300px, 150px) --> IE 10 + Firefox 29+;
 
+Video lesson 48.
+    
     
