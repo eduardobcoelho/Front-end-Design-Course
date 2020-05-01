@@ -53,5 +53,7 @@ Video lesson 47.
         transform: translate(300px, 150px) --> IE 10 + Firefox 29+;
 
 Video lesson 48.
-    
+    Don't forget: it's necessary that you set the CSS commands in the object class before edit the animation.
+
+
     

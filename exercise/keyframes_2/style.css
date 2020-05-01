@@ -1,14 +1,35 @@
 @keyframes btnAnim {
     0% {
-
+        width: 200px;
+        height: 64px;
+        display: block;
+        border-radius: 4px;
+        border: 2px solid blue;
+        background-color: #fff;
+        box-shadow: 0px 0px 0 #ff0099;
+        color: #ff0099;
     }
 
     50% {
-
+        width: 180px;
+        height: 64px;
+        display: block;
+        border-radius: 8px;
+        border: 2px solid blue;
+        background-color: #fff;
+        box-shadow: 8px 8px 0 #ff0099;
+        color: #ff0099;
     }
 
     100% {
-
+        width: 200px;
+        height: 64px;
+        display: block;
+        border-radius: 4px;
+        border: 2px solid blue;
+        background-color: blue;
+        box-shadow: 0px 0px 0 #ff0099;
+        color: #fff;
     }
 }
 
@@ -24,4 +45,11 @@
     line-height: 64px;
     text-decoration: none;
     color: #ff0099;
+    background-color: #fff;
+    box-shadow: 8px 8px 0 #ff0099;
+    transition: all 0.6s ease-out;
+}
+
+.btn:hover {
+    animation: btnAnim 0.6s forwards;
 }
