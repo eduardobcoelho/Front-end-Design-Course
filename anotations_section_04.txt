@@ -63,5 +63,13 @@ Video lesson 49.
             <h1 class"animated animationName"></h1>
 
 Video lesson 50.
-    
+    SVG images:
+        It's a scalable vector image;
+        The SVG file can be escalated without lose your quality and can be animated via code;
+
+        Creating, importing and animating:
+            Create the SVG image with a software of drawing vector - Adobe Illustrator; 
+            Export the SVG and optimize;
+            Animate the SVG inside of the SVG file or starting of a styles leaf external;
+
     
