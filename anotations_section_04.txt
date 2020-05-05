@@ -72,6 +72,7 @@ Video lesson 50.
             Export the SVG and optimize;
             Animate the SVG inside of the SVG file or starting of a styles leaf external;
 
-Video lesson 51.
+Video lesson 51 and 52.
     It has a tag for svg images;
     <svg></svg>;
+
