@@ -76,3 +76,6 @@ Video lesson 51 and 52.
     It has a tag for svg images;
     <svg></svg>;
 
+    SVG images are made in XML and divided by groups and paths.
+
+
