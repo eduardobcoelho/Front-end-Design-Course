@@ -73,5 +73,5 @@ Video lesson 50.
             Animate the SVG inside of the SVG file or starting of a styles leaf external;
 
 Video lesson 51.
-    
-    
+    It has a tag for svg images;
+    <svg></svg>;
