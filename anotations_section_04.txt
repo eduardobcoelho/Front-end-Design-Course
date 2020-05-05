@@ -79,4 +79,7 @@ Video lesson 51 and 52.
     SVG images are made in XML and divided by groups and paths.
 
 Video lesson 53.
-    
+    Ways to insert a SVG image in HTML:
+        by the tag <img />:
+            It allows animations just inside of the SVG file;
+            <img src="image.svg" />
