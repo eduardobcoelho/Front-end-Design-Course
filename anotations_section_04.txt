@@ -80,6 +80,10 @@ Video lesson 51 and 52.
 
 Video lesson 53 and 54.
     Ways to insert a SVG image in HTML:
-        by the tag <img />:
+        by the <img /> tag:
             It allows animations just inside of the SVG file;
             <img src="image.svg" />
+
+        by the <object></object> tag:
+            It allows acess the SVG elements starting of a external file, enabling formatations CSS. Must to call the external CSS file inside of the SVG with the line <?xml-stylesheet type="text/css" href="svg.css" ?> before open the SVG tag;
+            <object data="imagem.svg" type="image/svg+xml"></object>
