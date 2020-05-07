@@ -1,0 +1,114 @@
+/* Keyframes section */
+
+@keyframes svgAnimRed { /* red SVG animation section */
+    0% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        fill:#fd8484;
+        stroke: #920303;
+    }
+
+    50% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 500;
+        fill: red;
+        stroke: #920303;
+    }
+
+    100% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        fill: red;
+        stroke: #920303;
+    }
+}
+
+@keyframes svgAnimYellow { /* yellow SVG animation section */
+    0% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        fill:#fcfc90;
+        stroke: #818103;
+    }
+
+    50% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 500;
+        fill: yellow;
+        stroke: #818103;
+    }
+
+    100% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        fill: yellow;
+        stroke: #818103;
+    }
+}
+
+@keyframes svgAnimGreen { /* green SVG animation section */
+    0% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        fill:#85b485;
+        stroke: #035203;
+    }
+
+    50% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 500;
+        fill: green;
+        stroke: #035203;
+    }
+
+    100% {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        fill: green;
+        stroke: #035203;
+    }
+}
+
+/* Page section */
+
+body {
+    background-color: lightgray;
+}
+
+.svg-container {
+    width: auto;
+    display: table;
+    margin: 30px auto 0px auto;
+}
+
+/* svg edition section */
+
+.st0 { /* red SVG section */
+    fill:#fd8484;
+    stroke: #920303;
+    stroke-width:4;
+    stroke-miterlimit:10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: svgAnimRed 5s linear forwards;
+}
+
+.st1 { /* yellow SVG section */
+    fill:#fcfc90;
+    stroke: #818103;
+    stroke-width:4;
+    stroke-miterlimit:10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: svgAnimYellow 5s linear forwards;
+}
+
+.st2 { /* green SVG section */
+    fill:#85b485;
+    stroke: #035203;
+    stroke-width:4;
+    stroke-miterlimit:10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: svgAnimGreen 5s linear forwards;
+}

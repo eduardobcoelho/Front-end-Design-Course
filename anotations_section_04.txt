@@ -147,3 +147,5 @@ Video lesson 56.
 		    stroke-dashoffset: 0;
             fill: darkblue;
         }
+
+Section 04 finished
