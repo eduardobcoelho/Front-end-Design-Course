@@ -134,4 +134,16 @@ Video lesson 55.
         move the line;
     
 Video lesson 56.
-    
+    How to "draw" the element in the screen:
+
+        from {
+		    stroke-dasharray: 1000;
+		    stroke-dashoffset: 1000;
+		    fill: transparent;
+	    }
+
+	    to {
+		    stroke-dasharray: 1000;
+		    stroke-dashoffset: 0;
+            fill: darkblue;
+        }

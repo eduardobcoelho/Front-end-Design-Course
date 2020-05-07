@@ -2,14 +2,22 @@
 
 @keyframes dashAnim {
 	from {
-		stroke-dasharray: 10;
-		stroke-dashoffset: 5;
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		fill: transparent;
 	}
 
 	to {
-		stroke-dasharray: 10;
-		stroke-dashoffset: 200;
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 0;
+		fill: darkblue;
 	}
+}
+
+/* page config */
+
+body {
+	background-color: lightgrey;
 }
 
 .svg-container {
@@ -22,13 +30,13 @@
 
 .st0 {
 	/* fill: red; */
-	fill: none;
+	fill: transparent;
 	/* stroke:#a50000; */
 	stroke: #ff9966;
 	stroke-width:4;
 	stroke-miterlimit:10;
-	stroke-dasharray: 10;
-	stroke-dashoffset: 5;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
 	animation: dashAnim 5s linear forwards;
 }
 
