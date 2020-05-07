@@ -1,0 +1,50 @@
+/* keyfram */
+
+@keyframes dashAnim {
+	from {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 5;
+	}
+
+	to {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 200;
+	}
+}
+
+.svg-container {
+	width: auto;
+	display: table;
+	margin: 0 auto;
+}
+
+/* SVG config */
+
+.st0 {
+	/* fill: red; */
+	fill: none;
+	/* stroke:#a50000; */
+	stroke: #ff9966;
+	stroke-width:4;
+	stroke-miterlimit:10;
+	stroke-dasharray: 10;
+	stroke-dashoffset: 5;
+	animation: dashAnim 5s linear forwards;
+}
+
+.st1 {
+	fill: yellow;
+	stroke:#a0a000;
+	stroke-width:4;
+	stroke-miterlimit:10;
+}
+
+.st2 {
+	fill: green;
+	stroke:#015c01;
+	stroke-width:4;
+	stroke-miterlimit:10;
+}
+
+/* ----- */
+

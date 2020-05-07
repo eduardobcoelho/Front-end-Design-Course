@@ -5,6 +5,25 @@ Video lesson 43.
         Keyframes:
             they are the frames of an animation;
             moments of our animation. 
+            you can edit in % value or from to;
+                Example(%):
+                    0% {
+
+                    }
+
+                    50% {
+
+                    }
+
+                Example(from to){
+                    from {
+
+                    }
+
+                    to {
+
+                    }
+                }
 
         Transform proprieties:
             Is the animation's transformation of a frame for another frame;
@@ -105,4 +124,12 @@ Video lesson 53 and 54.
             itsn't recommended.
 
 Video lesson 55.
+    NOTE!!!
+        When we have a number without unit of measurement, this number is interpreted in pixels. In this case, the stroke-dashoffset and stroke-dasharray are in pixels.
+    
+    stroke-dasharray:
+        partitions the element;
+
+    stroke-dashoffset:
+        move the line;
     
