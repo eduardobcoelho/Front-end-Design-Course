@@ -87,3 +87,19 @@ Video lesson 53 and 54.
         by the <object></object> tag:
             It allows acess the SVG elements starting of a external file, enabling formatations CSS. Must to call the external CSS file inside of the SVG with the line <?xml-stylesheet type="text/css" href="svg.css" ?> before open the SVG tag;
             <object data="imagem.svg" type="image/svg+xml"></object>
+            you have to link the .css file into the .css file:
+                <?xml-stylesheet type="text/css" href="style.css" ?>
+            after that, take the css line that is inside of the .svg file and put him in the .css file;
+                <style type="text/css">
+	                .st0{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+                </style>
+                .st0{
+                    fill; none;
+                    stroke #000000;
+                    stroke-width: 4;
+                    stroke-miterlimit: 10;
+                }
+
+        Inline:
+            put the SVG in the HTML;
+            itsn't recommended.
