@@ -33,4 +33,27 @@ Video lesson 58.
             because the JavaScript depends of the HTML and CSS for start to work;
             basicallly the HTML is a part of the DOM and the JS it's to interact with the DOM, so, if doesn't exist DOM the JS doesn't have nothing to interact;
 
+Client side:
+        How a web page is renderized:
+            1. you acess a site by the link;
+            2. the server will receive this requisition
+            3. the server will understand what is the page that you're requiring;
+            4. he will set up the document in the server;
+            5. when he finishes the assembly he gives the document to the client side --> the browser;
+                5.1 - OBS: the server gives a HTML to the browser;
+            7. the first thing that the client side looks it's the HTML structure;
+            8. the second thing that the client side looks it's the resources (medias);
+            9. the third thing that the client side looks is the CSS;
+            10. finally, the last thing that the client side looks is the JavaScript:
+                10.1 - he will check if exists JavaScript in the page;
+                10.2 - download the JavaScript file.
+            11. After that the client side know all that information he will renderized the page.
+        
+        Why JavaScript is the last to be verified by the browser:
+            because the JavaScript depends of the HTML and CSS for start to work;
+            basicallly the HTML is a part of the DOM and the JS it's to interact with the DOM, so, if doesn't exist DOM the JS doesn't have nothing to interact;
+
+Video lesson 59.
+    
+
 
