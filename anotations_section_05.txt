@@ -1,2 +1,13 @@
 Video lesson 57.
-	
+    JavaScript:
+        it's a language implemented natively and originally like a web browsers part for that the scripts could be executed in the client side and could interact without the necessity of this script pass through the server;
+        the javscript allow us to control the DOM elements behavior: HMLT, XML and SVG, generating dynamic interactions by scripts to these events; 
+        Dom(Document Object Model):
+            all the things that we can interact with JS it's inside of the DOM;
+            stores values, funcionalities, etc;
+            by the DOM we can acess all the elements hierarchy of our page:
+                we can acess the elements(fathers or sons), the tags, the values stores inside a div of our pages, etc;
+
+        the JavaScript allows create interactions in a page;
+        inside of all the browsers exist an JS interpreter;
+        scripts --> JS code;
