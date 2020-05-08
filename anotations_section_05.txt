@@ -54,6 +54,7 @@ Client side:
             basicallly the HTML is a part of the DOM and the JS it's to interact with the DOM, so, if doesn't exist DOM the JS doesn't have nothing to interact;
 
 Video lesson 59.
-    
+    Console:
+        it's a text interface that has a code interpreter;
 
 
