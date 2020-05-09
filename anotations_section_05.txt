@@ -108,4 +108,44 @@ Video lesson 63.
             just can be called in the same scope that he will defined.
 
 Video lesson 64.
-    
+    Operators and precedence:
+        operators have the power of give operation instructions to the values em the JavaScript.
+            Example: "=" assignment operator;
+        
+        operators types:
+            attribution;
+            comparation;
+            arithmetic;
+            bit a bit;
+            logic;
+            unaries;
+            ternary;
+            relational.
+
+            comparation:
+                31 == '31' --> will return true because of the JS polimofirsm. So, the JS transform the 31 that is a number in a string to do the comparation;
+                31 === '31' --> will return false because in this case, the JS take literally the originally datatype without do the polimofirsm.
+                10 != '10'--> will return false because of the JS polimofirsm;
+                10 !== '10' --> will return true;
+
+            logic:
+                && --> and;
+                || --> or;
+
+            precedence:
+                ()
+                **
+                * / %
+                + -
+
+                a = b = 5; --> the JS reads from right to left;
+                so, 5 = b = a;
+
+            example with if:
+                let idade = 31;
+                if ( (50+10 && idade + 20) > 50){
+                    console.log("True");
+                } else {
+                    console.log("False");
+                }
+                this script return True in the console because the (50+10) and (idade + 20) are bigger than 50;
