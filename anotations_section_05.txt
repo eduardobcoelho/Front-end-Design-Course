@@ -106,3 +106,6 @@ Video lesson 63.
         let:
             it's a scope variable;
             just can be called in the same scope that he will defined.
+
+Video lesson 64.
+    
