@@ -67,3 +67,6 @@ Video lesson 60 and 61.
 
     Window object:
         it has items;
+
+Video lesson 62.
+    
