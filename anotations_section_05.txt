@@ -69,4 +69,23 @@ Video lesson 60 and 61.
         it has items;
 
 Video lesson 62.
+    Primitive datas:
+        String:
+            normally used for texts but also can show numbers, but this numbers would serve just for visualization and doesn't can be used to arithmetics operations.
+
+        Number:
+            define the data type in number, enabling your utilization for arithmetics expressions.
+        
+        Boolean:
+            true or false.
+
+        Null:
+            it always be a value to be atributed to a variable. Empty value;
+                let x = null;
+
+        Undefined:
+            when a variable is created but without a value. She is a primitive data of the undefined type.
     
+    String + String --> concatenation;
+    String + Number --> concatenation;
+    Number + Number --> sum.
