@@ -1,7 +1,7 @@
 Video lesson 57.
     JavaScript:
         it's a language implemented natively and originally like a web browsers part for that the scripts could be executed in the client side and could interact without the necessity of this script pass through the server;
-        the javscript allow us to control the DOM elements behavior: HMLT, XML and SVG, generating dynamic interactions by scripts to these events; 
+        the javascript allow us to control the DOM elements behavior: HMLT, XML and SVG, generating dynamic interactions by scripts to these events; 
         Dom(Document Object Model):
             all the things that we can interact with JS it's inside of the DOM;
             stores values, funcionalities, etc;
@@ -58,4 +58,9 @@ Video lesson 59.
         it's a text interface that has a code interpreter;
 
 Video lesson 60.
-    
+    API - Apllication Programming interface:
+        objects that the JavaScript provides to us;
+        we interact with a programming language through of your API;
+        the JavaScript has your own native API in the browsers, and is through of your rules that we can consult and interact with your proprieties;
+        all the JavaScript API is stored in a window object;
+        the list of rules to interact with the JS API can be consulted in your documentation, that can be found in the W3C or Mozilla MDN site.
