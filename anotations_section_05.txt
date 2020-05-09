@@ -91,4 +91,18 @@ Video lesson 62.
     Number + Number --> sum.
 
 Video lesson 63.
-    
+    JS variables:
+        storing data/values in the memory of our Client side;
+        it's a named local created for store a value;
+        this way, a value can be accessed through a defined name;
+
+        var name = "Luiz Eduardo"; | let age = 18; | const height = 1.70;
+
+        const:
+            a const variable has to receive a value;
+            basically he can't be undefined;
+            the value of a const variable can be changed.
+
+        let:
+            it's a scope variable;
+            just can be called in the same scope that he will defined.
