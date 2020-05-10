@@ -149,3 +149,6 @@ Video lesson 64.
                     console.log("False");
                 }
                 this script return True in the console because the (50+10) and (idade + 20) are bigger than 50;
+
+Video lesson 65.
+    
