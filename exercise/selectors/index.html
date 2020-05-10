@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <style>
         h1 {
@@ -14,6 +15,20 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             line-height: 50px;
         }
+
+        .my-buttons {
+            width: 300px;
+            height: 50px;
+            display: block;
+            margin: 15px auto;
+        }
+
+        .my-buttons button {
+            width: 50%;
+            height: 40px;
+            float: left;
+        }
+
     </style>
 </head>
 
@@ -22,15 +37,45 @@
     <h1 class="blue-item">Blue 2</h1>
     <h1 class="blue-item">Blue 3</h1>
 
-    <h1 class="red-item">red 1</h1>
-    <h1 class="red-item">red 2</h1>
-    <h1 class="red-item">red 3</h1>
+    <h1 class="red-item">Red 1</h1>
+    <h1 class="red-item">Red 2</h1>
+    <h1 class="red-item">Red 3</h1>
+
+    <div class="my-buttons">
+        <button onclick="makeBlue()">blue</button>
+        <button onclick="makeRed()">red</button>
+    </div>
 
     <script>
-
         var blue = document.querySelectorAll('.blue-item');
-        console.log(blue[1]);
-        
+        var red = document.querySelectorAll('.red-item');
+
+        function makeBlue(){
+            let i = 0;
+            for(i=0; i<blue.length; i++){
+                blue[i].style.color = "blue";
+            }
+            
+            for(i=0; i<red.length; i++){
+                red[i].style.display = "none";
+            }
+
+            document.body.style.backgroundColor = "blue";
+        }
+
+        function makeRed(){
+            let i = 0;
+            for(i=0; i<red.length; i++){
+                red[i].style.color = "red";
+            }
+
+            for(i=0; i<blue.length; i++){
+                blue[i].style.display = "none";
+            }
+
+            document.body.style.backgroundColor = "red";
+        }
+
     </script>
 </body>
 
