@@ -167,3 +167,6 @@ Video lesson 65 and 66.
 
             document.querySelector('.class-item'); --> returns just the first item with the class writed;
             document.querySelectorAll('.class-item'); --> returns an array with all the elements with the class writed;
+
+Video lesson 67.
+    
