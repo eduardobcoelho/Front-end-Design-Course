@@ -151,4 +151,19 @@ Video lesson 64.
                 this script return True in the console because the (50+10) and (idade + 20) are bigger than 50;
 
 Video lesson 65.
-    
+    Selectors - part 01:
+        selecting elements individually;
+
+        selector by ID:
+            document.getElementById('my-item-id');
+
+        selector by class:
+            document.getElementByClassName('my-item-class'); --> returns an array with all the elements with the class writed.
+
+        selector by query:
+            document.querySelector(".btn"); --> by id with query;
+            document.querySelector("#'id'"); --> by class with query;
+            document.querySelector("'tag_name'") || document.getElementByTagName("'tag_name'");
+
+            document.querySelector('.class-item'); --> returns just the first item with the class writed;
+            document.querySelectorAll('.class-item'); --> returns an array with all the elements with the class writed;
