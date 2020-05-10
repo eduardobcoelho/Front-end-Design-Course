@@ -169,4 +169,25 @@ Video lesson 65 and 66.
             document.querySelectorAll('.class-item'); --> returns an array with all the elements with the class writed;
 
 Video lesson 67.
-    
+    NOTE! ! !
+        Regex:
+            to check if a string is a valid email;
+            var isEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    IF/Else:
+        A conditional IF is a conditional structure that executes what is describe inside of your block in case that the condition was true. If was false, executes the else block;
+        if(condition){
+            execute if the condition was true.
+        }
+
+        if(condition) {
+            execute if the condition was true.
+        } else {
+            execute if the condition was false.
+        }
+
+    .value:
+        takes the value of a variable;
+        var fieldName = document.getElementById('name');
+        var nameStr = fieldName.value;
+
