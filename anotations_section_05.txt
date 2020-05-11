@@ -211,3 +211,6 @@ Video lesson 67 and 68.
 
     wrapperName.getElementsByTagName('span').innetText = "":
         this line it's adding a text to the span that is inside of the element stored in the variable wrapperName.
+
+Video lesson 69.
+    
