@@ -116,23 +116,36 @@
     //Regex
     var isEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^/<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-    // storing DOM elements in variables
+    // storing DOM elements in variables by ID
     var fieldName = document.getElementById('name');
     var fieldEmail = document.getElementById('email');
 
     function validForm(){
-      // storing the VALUE(input) of the DOM elements fieldName and fieldEmail in variables;  
+      // storing the VALUE(input) of the DOM elements fieldName and fieldEmail in variables
       let nameStr = fieldName.value;
       let emailStr = fieldEmail.value;
 
+      // storing DOM elements in variables by ID
+      let wrapperName = document.getElementById('form-field-name');
+      let wrapperEmail = document.getElementById('form-field-email');
+
       //name Check
       if (nameStr.length>=3){
-        console.log("sucess");
+        wrapperName.querySelector('span').classList.add('success'); // adding the class success in the span tag that is inside of the element stored in wrapperName
+        wrapperName.querySelector('span').innerText = "Validated with sucess"; // adding a text in the span tag that is inside of the element stored in wrapperName
       } else {
-        console.log("error");
+        wrapperName.querySelector('span').classList.add('error'); // adding the class error in the span tag that is inside of the element stored in wrapperName
+        wrapperName.querySelector('span').innerText = 'Invalid information'; // adding a text in the span tag that is inside of the element stored in wrapperName
       }
 
       //email check
+      if(isEmail.test(emailStr)){ // .test() --> it's a method for tests;
+        wrapperEmail.querySelector('span').classList.add("success"); // adding the class success in the span tag that is inside of the element stored in wrapperEmail
+        wrapperEmail.querySelector('span').innerText = "Email validated with sucess"; // adding a text in the span tag that is inside of the element stored in wrapperEmail
+      } else {
+        wrapperEmail.querySelector('span').classList.add("error") // adding the class error in the span tag that is inside of the element stored in wrapperEmail
+        wrapperEmail.querySelector('span').innerText = "Invalid email"; // adding a text in the span tag that is inside of the element stored in wrapperEmail
+      }
 
     }
 

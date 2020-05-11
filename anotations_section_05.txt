@@ -191,3 +191,23 @@ Video lesson 67 and 68.
         var fieldName = document.getElementById('name');
         var nameStr = fieldName.value;
 
+    .test():
+        it's a method that make tests;
+        example (email test):
+            var isEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^/<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            isEmail.test(emailInput);
+    
+    .classList:
+        it's a JS propriety that is used to acess a class.
+
+    .innerText = "text":
+        it's to add a text;
+
+    wrapperName.getElementsByTagName('span').classList.add('sucess'):
+        wrapperName --> the variable that stored the DOM element;
+        wrapperName.getElementsByTagName('span') --> is taking the span element that is inside of the element stored in the wrapperName variable;
+        wrapperName.getElementByClassName('span').classList --> classList is a JS propriety to acess classes;
+        wrapperName.getElementsByTagName('span').classList.add('sucess') --> the .classList.add('sucess') it's adding a class to the span inside of the element stored in the variable wrapperName.
+
+    wrapperName.getElementsByTagName('span').innetText = "":
+        this line it's adding a text to the span that is inside of the element stored in the variable wrapperName.
