@@ -213,4 +213,19 @@ Video lesson 67 and 68.
         this line it's adding a text to the span that is inside of the element stored in the variable wrapperName.
 
 Video lesson 69.
-    
+    Switch case:
+        The conditional switch rates a expression combining the expression value for a clause case and executes the instructions associated to the case;
+        switch(expression){
+            case value1:
+                instructions executed when the expression result goes equal to value1
+                [break;]
+            case value2:
+                instructions executed when the expression result goes equal to value2
+                [break;]
+            case value3:
+                instructions executed when the expression result goes equal to value3
+                [break;]
+            default:
+                instructions executed when the expression result goes different of every cases
+                [break;]
+        }
