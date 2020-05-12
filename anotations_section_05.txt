@@ -340,3 +340,6 @@ Video lesson 72 and 73.
             text:
                 it's what do you want to add;
                 the html that you want to add.
+
+Video lesson 74.
+    
