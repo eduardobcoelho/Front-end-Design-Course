@@ -279,7 +279,7 @@ Video lesson 71.
         arrow function:
             const myName = (arg1, arg2) => {return arg1+arg2};
 
-Video lesson 72.
+Video lesson 72 and 73.
     Array:
         to declare an array you have to use [];
         example:
