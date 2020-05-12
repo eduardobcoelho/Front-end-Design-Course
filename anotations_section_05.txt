@@ -229,3 +229,6 @@ Video lesson 69.
                 instructions executed when the expression result goes different of every cases
                 [break;]
         }
+
+Video lesson 70.
+    
