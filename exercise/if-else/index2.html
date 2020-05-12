@@ -98,12 +98,12 @@
 
       <div class="form-field" id="form-field-name">
         <input type="text" id="name" placeholder="Your Name">
-        <span></span>
+        <span id="span-name"></span>
       </div>
 
       <div class="form-field" id="form-field-email">
         <input type="email" id="email" placeholder="Your Email">
-        <span></span>
+        <span id="span-email"></span>
       </div>
 
     </form>
@@ -126,27 +126,26 @@
       let emailStr = fieldEmail.value;
 
       // storing DOM elements in variables by ID
-      let wrapperName = document.getElementById('form-field-name');
-      let wrapperEmail = document.getElementById('form-field-email');
+      let nameSpan = document.getElementById('span-name');
+      let emailSpan = document.getElementById('span-email');
 
       // name Check
       if (nameStr.length>=3){
-        wrapperName.querySelector('span').classList.add('success'); // adding the class success in the span tag that is inside of the element stored in wrapperName
-        wrapperName.querySelector('span').innerText = "Validated with sucess"; // adding a text in the span tag that is inside of the element stored in wrapperName
+        nameSpan.classList.add('success'); // appling the class 'sucess' to a DOM element
+        nameSpan.innerText = "Validated with sucess"; // appling a text to a DOM element
       } else {
-        wrapperName.querySelector('span').classList.add('error'); // adding the class error in the span tag that is inside of the element stored in wrapperName
-        wrapperName.querySelector('span').innerText = 'Invalid information'; // adding a text in the span tag that is inside of the element stored in wrapperName
+        nameSpan.classList.add('error'); // appling the class 'sucess' to a DOM element
+        nameSpan.innerText = 'Invalid information'; // appling a text to a DOM element
       }
 
       // email check
       if(isEmail.test(emailStr)){ // .test() --> it's a method for tests;
-        wrapperEmail.querySelector('span').classList.add("success"); // adding the class success in the span tag that is inside of the element stored in wrapperEmail
-        wrapperEmail.querySelector('span').innerText = "Email validated with sucess"; // adding a text in the span tag that is inside of the element stored in wrapperEmail
+        emailSpan.classList.add('success') // appling the classs 'success' to a DOM element;
+        emailSpan.innerText = "Email validated with sucess"; // appling a text to a DOM element
       } else {
-        wrapperEmail.querySelector('span').classList.add("error") // adding the class error in the span tag that is inside of the element stored in wrapperEmail
-        wrapperEmail.querySelector('span').innerText = "Invalid email"; // adding a text in the span tag that is inside of the element stored in wrapperEmail
+        emailSpan.classList.add("error") // appling the class 'error' to a DOM element
+        emailSpan.innerText = "Invalid email"; // appling a text to a DOM element
       }
-
     }
 
   </script>
