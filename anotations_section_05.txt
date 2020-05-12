@@ -258,3 +258,6 @@ Video lesson 70.
             myBox.addEventListener('click', fuction(){
                 --> function details <--
             }) --> a function that will run when you do the type of interaction - in this case, the 'click';
+
+Video lesson 71.
+    
