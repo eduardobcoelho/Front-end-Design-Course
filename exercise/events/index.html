@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos</title>
+    <style>
+        .box {
+            width: 450px;
+            height: 200px;
+            display: block;
+            margin: 60px auto;
+            background-color: indigo;
+            color: mediumspringgreen;
+            text-align: center;
+            line-height: 200px;
+            font-size: 41px;
+            font-family: monospace;
+            font-weight: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            transition: all 0.3s linear;
+        }
+
+        .box:hover{
+            height: 250px;
+            width: 500px;
+            border-radius: 4px;
+            line-height: 250px;
+            box-shadow: 8px 8px indigo;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box" id="box">
+        Codesigners!
+    </div>
+
+    <div class="box">
+        Codesigners!
+    </div>
+
+    <div class="box">
+        Codesigners!
+    </div>
+
+    <div class="box">
+        Codesigners!
+    </div>
+
+    <div class="box">
+        Codesigners!
+    </div>
+
+    <div class="box">
+        Codesigners!
+    </div>
+
+    <script>
+        var myBox = document.getElementById('box');
+        var allBoxes = document.querySelectorAll('.box');
+
+        myBox.addEventListener('mouseover', function(){ // .addEventListener() --> method for use the events
+            let i  = 0;
+            for(i = 0; allBoxes.length > i; i++){
+                allBoxes[i].style.backgroundColor = "mediumspringgreen";
+                allBoxes[i].style.color = "indigo";
+            }
+        });
+
+        window.addEventListener('scroll', function(){ // event when the page is scrolled
+            
+        })
+
+    </script>
+
+</body>
+
+</html>

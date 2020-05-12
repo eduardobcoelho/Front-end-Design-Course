@@ -231,4 +231,30 @@ Video lesson 69.
         }
 
 Video lesson 70.
-    
+    DOM Events:
+        They are used to notify news to the code during the user navegation;
+        Events can represent from basic interactions of the user (clicks, page scroll, etc.) to automatic notifications of news in the DOM;
+        
+        Mouse events:
+            auxclick;
+            click;
+            contextmenu;
+            dblclick;
+            mousedown;
+            mouseenter;
+            mouseLeave;
+            mousemove;
+            mouseover;
+            mouseout;
+            mouseup;
+            pointerlockchange;
+            pointerlockerror;
+            select.
+
+        How to do:
+            var myBox = document.getElementById('');
+            myBox.addEventListener() --> method used;
+            myBox.addEventListener('click') --> the type of interaction;
+            myBox.addEventListener('click', fuction(){
+                --> function details <--
+            }) --> a function that will run when you do the type of interaction - in this case, the 'click';
