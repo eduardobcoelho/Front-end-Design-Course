@@ -47,11 +47,15 @@
 
         var fruits = ["Orange","Kiwi","Strawberry"];
 
-        fruits.push("uva");
+        var liFruits = [];
 
-        fruits.pop();
+        console.log(liFruits);
+
+        for(let i = 0; i<fruits.length; i++){
+            liFruits.push("<li>" + fruits[i] + "</li>"); // adding the items of an array (fruits) to another array (liFruits) in <li> model </li>
+        }
         
-        console.log(fruits);
+        fruitList.insertAdjacentHTML("beforeend", liFruits.join("")); // addding the array of li that is in liFruits into the fruitList(a ul list from HTML)
 
     </script>
 

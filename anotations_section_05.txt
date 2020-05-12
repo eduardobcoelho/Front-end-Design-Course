@@ -280,6 +280,10 @@ Video lesson 71.
             const myName = (arg1, arg2) => {return arg1+arg2};
 
 Video lesson 72 and 73.
+    NOTE! ! !   
+    .join():
+        it's a method that it's used to define the character that will be used to separate the array items.
+
     Array:
         to declare an array you have to use [];
         example:
@@ -314,3 +318,25 @@ Video lesson 72 and 73.
         
         .unshift():
             add to the front of an array.
+
+        element.insertAdjacentHTML(position, text):
+            it's used to insert a HTML in a element;
+            element:
+                where do you want to insert;
+
+            position:
+                "beforebegin":
+                    before the element itself.
+                
+                "afterbegin":
+                    just inside the element, before its first child.
+
+                "beforeend":
+                    just inside the element, after its last child.
+
+                "afterend":
+                    after the element itself.
+
+            text:
+                it's what do you want to add;
+                the html that you want to add.
