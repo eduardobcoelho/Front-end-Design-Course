@@ -280,4 +280,37 @@ Video lesson 71.
             const myName = (arg1, arg2) => {return arg1+arg2};
 
 Video lesson 72.
-    
+    Array:
+        to declare an array you have to use [];
+        example:
+            var frutas = ["Orange","Kiwi","Strawberry]
+
+        .push():
+            it's used to add an item to an array;
+            example:
+                var array = ["one","two","three"];
+                console.log(array);
+                // Array(3)
+                // 0:"one"
+                // 1:"two"
+                // 2:"three"
+                // length: 3
+
+                array.push("four")
+
+                console.log(array);
+                // Array(4)
+                // 0:"one"
+                // 1:"two"
+                // 2:"three"
+                // 3:"four"
+                // length: 4
+
+        .pop():
+            removes the array last item.
+
+        .shift():
+            removes the array first item.
+        
+        .unshift():
+            add to the front of an array.
