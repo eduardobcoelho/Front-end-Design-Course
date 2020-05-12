@@ -260,4 +260,21 @@ Video lesson 70.
             }) --> a function that will run when you do the type of interaction - in this case, the 'click';
 
 Video lesson 71.
-    
+    NOTE! ! !
+        .append() --> method used to add something in a DOM element;
+        example:
+            var myBox = document.getElementById('box);
+            myBox.append();
+
+    Functions:
+        it's a code block that executes a task(rotine);
+        the function usually receive a value (argument), transform this value internally and return a new value;
+
+              FuncName  Parameters    Tasks and rotine
+                    |     |    |            |
+                    |     |    |            |
+        function myName(arg1, arg2) {return arg1+arg2;
+        }
+
+        arrow function:
+            const myName = (arg1, arg2) => {return arg1+arg2};
