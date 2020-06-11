@@ -61,7 +61,7 @@ Video lesson 60 and 61.
     API - Apllication Programming interface:
         objects that the JavaScript provides to us;
         we interact with a programming language through of your API;
-        the JavaScript has your own native API in the browsers, and is through of your rules that we can consult and interact with your proprieties;
+        the JavaScript has your own native API in the browsers, and is through of your rules that we can consult and interact with your properties;
         all the JavaScript API is stored in a window object;
         the list of rules to interact with the JS API can be consulted in your documentation, that can be found in the W3C or Mozilla MDN site.
 
@@ -198,7 +198,7 @@ Video lesson 67 and 68.
             isEmail.test(emailInput);
     
     .classList:
-        it's a JS propriety that is used to acess a class.
+        it's a JS property that is used to acess a class.
 
     .innerText = "text":
         it's to add a text;
@@ -206,7 +206,7 @@ Video lesson 67 and 68.
     wrapperName.getElementsByTagName('span').classList.add('sucess'):
         wrapperName --> the variable that stored the DOM element;
         wrapperName.getElementsByTagName('span') --> is taking the span element that is inside of the element stored in the wrapperName variable;
-        wrapperName.getElementByClassName('span').classList --> classList is a JS propriety to acess classes;
+        wrapperName.getElementByClassName('span').classList --> classList is a JS property to acess classes;
         wrapperName.getElementsByTagName('span').classList.add('sucess') --> the .classList.add('sucess') it's adding a class to the span inside of the element stored in the variable wrapperName.
 
     wrapperName.getElementsByTagName('span').innetText = "":
@@ -342,4 +342,33 @@ Video lesson 72 and 73.
                 the html that you want to add.
 
 Video lesson 74.
-    
+    Objects:
+        it's a property collection and a property is an association between a name(or key) and a value - a property value may be a function that is considerated an object method;
+        objects in JavaScript can be compared with real life objects. In JavaScript, a object is an independent entity with properties and types;
+        a cup, by example, is an object with properties. A cup has color, a form, etc. In that same way, an objext in JS may have properties that define your characteristics;
+        example:
+      
+            bola = { 
+
+                format: "esferic",
+                diameter: 32,
+                firstColor = "white",
+                secondColor = "black",
+                kick: function() {
+                    commands to kick
+                }
+                
+            }
+
+        you may store several items in a property like he were an array array;
+        example:
+
+            myCats = {
+
+                gato: [
+
+                    {cat01 properties}, {cat02 properties}, {cat03 properties};
+                    
+                ]
+
+            }
