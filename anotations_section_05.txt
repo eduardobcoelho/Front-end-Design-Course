@@ -342,6 +342,19 @@ Video lesson 72 and 73.
                 the html that you want to add.
 
 Video lesson 74, 75, 76.
+    NOTE ! ! !
+    .toLoweCase(); --> it's a method used to transform a string in just lower case characters;
+
+    innerHTML = ''; --> it's a property used to replace in the HTML;
+
+    setAttribute(name, value); --> it's a method used to set or define an attribute value;
+        example: in html -->  <img id="image" />
+                 in JS --> var image = getElementById('image');
+                           image.setAttribute('id', 'idChanged');
+                 in html --> <img id="idChanged">
+
+    in HTML the target="_blank" means that when the element is clicked a new window will open. 
+
     Objects:
         it's a property collection and a property is an association between a name(or key) and a value - a property value may be a function that is considerated an object method;
         objects in JavaScript can be compared with real life objects. In JavaScript, a object is an independent entity with properties and types;

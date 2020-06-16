@@ -33,19 +33,27 @@ var btn = document.getElementById('btn');
 function getCat() {
 
     //Pegamos o valor do Input Field
-    var inputCat = document.getElementById('myInput').value;
+    var inputCat = document.getElementById('myInput').value.toLowerCase();
 
     for (var i = 0; i < meusGatos.gato.length; i++) {
 
-        if (inputCat == meusGatos.gato[i].nome) {
+        var cat = meusGatos.gato[i];
 
-            console.log("cat founded")
+        if (inputCat == cat.nome.toLowerCase()) {
+
+            catCard.querySelector('img').setAttribute('src', cat.fotoURL);
+
+            catCard.querySelector('h1').innerHTML = cat.nome;
+
+            catCard.querySelector('p').innerHTML = cat.descricao;
+
+            catCard.querySelector('.external-link').setAttribute('href', cat.linkExterno);
 
             break;
 
         } else {
 
-            console.log("We don't find the cat");
+            catCard.querySelector('h1').innerHTML = "We didn't find any little cat =["
 
         }
 
@@ -56,4 +64,3 @@ function getCat() {
 //Rodamos a Função getGato ao clicar no botao
 
 btn.addEventListener('click', getCat);
-
