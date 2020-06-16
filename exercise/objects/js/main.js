@@ -26,11 +26,34 @@ meusGatos = {
     ]
 }
 
-var cardGato = document.getElementById('card');
+var catCard = document.getElementById('card');
 var btn = document.getElementById('btn');
 
 //Fazemos um loop para checar se existe um gato com este nome 
+function getCat() {
 
-//Pegamos o valor do Input Field    
+    //Pegamos o valor do Input Field
+    var inputCat = document.getElementById('myInput').value;
+
+    for (var i = 0; i < meusGatos.gato.length; i++) {
+
+        if (inputCat == meusGatos.gato[i].nome) {
+
+            console.log("cat founded")
+
+            break;
+
+        } else {
+
+            console.log("We don't find the cat");
+
+        }
+
+    }
+
+}
 
 //Rodamos a Função getGato ao clicar no botao
+
+btn.addEventListener('click', getCat);
+
