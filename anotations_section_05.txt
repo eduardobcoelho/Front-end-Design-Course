@@ -341,7 +341,7 @@ Video lesson 72 and 73.
                 it's what do you want to add;
                 the html that you want to add.
 
-Video lesson 74, 75.
+Video lesson 74, 75, 76.
     Objects:
         it's a property collection and a property is an association between a name(or key) and a value - a property value may be a function that is considerated an object method;
         objects in JavaScript can be compared with real life objects. In JavaScript, a object is an independent entity with properties and types;
