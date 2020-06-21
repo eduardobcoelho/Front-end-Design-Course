@@ -400,3 +400,5 @@ Video lesson 77.
     Loops:
         for in:
             check if exists a required value inside of an array or object;
+
+Section 05 finished.
