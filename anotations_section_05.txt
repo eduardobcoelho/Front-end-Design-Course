@@ -387,4 +387,16 @@ Video lesson 74, 75, 76.
             }
 
 Video lesson 77.
+    NOTE ! ! !
+    Object.keys --> keys is an Object property used to access the keys of an object;
     
+    Object.values --> values is an Object property used to acccess the keys values of an object;
+
+    Object.entries --> entries is an Object property that is used to transform every line of our object in a different array;
+        OBS: can be used to separate some key and value. 
+
+    map doesn't was made to objects. 
+
+    Loops:
+        for in:
+            check if exists a required value inside of an array or object;
