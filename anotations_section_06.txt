@@ -1,2 +1,3 @@
 Video lesson 78.
-    
+    jQuery:
+        it's a JS functions library that interacts with the HTML.
