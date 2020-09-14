@@ -3,4 +3,4 @@ Video lesson 78.
         it's a JS functions library that interacts with the HTML.
 
 Video lesson 79.
-    
+    JQuery informations.
