@@ -7,3 +7,7 @@ Video lesson 85.
 Video lesson 86.
     Just the basic structure;
     media queries assigned.
+
+Video lesson 87.
+    Topbar (Menu):
+        position: fixed; top: 0; left: 0; --> to fix the top bar in the top;
