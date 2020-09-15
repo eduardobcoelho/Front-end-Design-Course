@@ -16,3 +16,6 @@ Video lesson 88.
     nav --> tag for navigation menu;
     display: none; --> because for smarthphones the navigation menu it's hide;
     .jl-menu a:first-child --> pseudoclass to affect only the first child; 
+
+Video lesson 89.
+    Animation hover in the menu hiperlink.
