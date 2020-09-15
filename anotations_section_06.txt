@@ -24,4 +24,7 @@ Video lesson 82.
     OBS: When we will call a function inside of an event, we write just the function's name, it doesn't need of the parentheses.
 
 Video lesson 83.
-    
+    .addClass('') --> method used to add a class of an element;
+    .removeClass('') --> method used to remove a class of an element;
+    .toggleCLass('') --> varies between add and remove to every click;
+    OBS: when you put !important on the side of a CSS line, the command will have preference.
