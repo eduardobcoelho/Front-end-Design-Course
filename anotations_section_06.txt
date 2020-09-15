@@ -18,4 +18,7 @@ Video lesson 81.
     .val() --> method used to return the value.
 
 Video lesson 82.
-    
+    $('#card h1') --> that command line is taking the h1 of some DOM object that has a ID named by "card";
+    $('...').html() --> JQuery method that works like the .innerHTML = "";
+    $('...').attr() --> JQuery method that works like the method .setAttribute();
+    OBS: When we will call a function inside of an event, we write just the function's name, it doesn't need of the parentheses.

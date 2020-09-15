@@ -37,7 +37,23 @@ $(document).ready(function(){
     var btnJquery = $('#btn');
 
     function getCat(){
-        var inputCat = $('#myInput').val().toLowerCase();
-    }
-})
+        var inputCat = $("#myInput").val().toLowerCase();
 
+        for (var i = 0; i<meusGatos.gato.length; i++) {
+            var cat = meusGatos.gato[i];
+
+            if(inputCat == cat.nome.toLowerCase()){
+                $('#card h1').html(cat.nome);
+                $('#card p').html(cat.descricao);
+                $('#card img').attr('src', cat.fotoURL);
+                $('.external-link').attr('href', cat.linkExterno);
+                return;
+            } else { 
+                $('#card h1').html("We didn't find any cat with this name =[");
+            }
+        }
+    }
+    
+    btnJquery.click(getCat);
+
+})
