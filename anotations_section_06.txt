@@ -6,7 +6,7 @@ Video lesson 79.
     JQuery informations.
 
 Video lesson 80.
-    $(function{...}) --> to start the JQuery section;
+    $(function(){...}) --> to start the JQuery section;
     $() --> It's used like a selector;
     Example: var item = $('.item); --> JQuery.
              var item = document.querySelector('.item') --> Pure JS.
@@ -22,3 +22,6 @@ Video lesson 82.
     $('...').html() --> JQuery method that works like the .innerHTML = "";
     $('...').attr() --> JQuery method that works like the method .setAttribute();
     OBS: When we will call a function inside of an event, we write just the function's name, it doesn't need of the parentheses.
+
+Video lesson 83.
+    
