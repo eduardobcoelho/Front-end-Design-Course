@@ -11,3 +11,6 @@ Video lesson 80.
     Example: var item = $('.item); --> JQuery.
              var item = document.querySelector('.item') --> Pure JS.
              var item = document.getElementByClassName('item') --> Pure JS.
+
+Video lesson 81.
+    
