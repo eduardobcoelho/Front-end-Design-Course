@@ -28,3 +28,5 @@ Video lesson 83.
     .removeClass('') --> method used to remove a class of an element;
     .toggleCLass('') --> varies between add and remove to every click;
     OBS: when you put !important on the side of a CSS line, the command will have preference.
+
+Section 06 finished.
