@@ -6,4 +6,8 @@ Video lesson 79.
     JQuery informations.
 
 Video lesson 80.
-    
+    $(function{...}) --> to start the JQuery section;
+    $() --> It's used like a selector;
+    Example: var item = $('.item); --> JQuery.
+             var item = document.querySelector('.item') --> Pure JS.
+             var item = document.getElementByClassName('item') --> Pure JS.
