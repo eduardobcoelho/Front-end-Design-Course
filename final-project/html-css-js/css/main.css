@@ -38,6 +38,10 @@
         display: block;
         margin: 55px auto 0px auto;
     }
+
+    .jl-menu {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 576px){
@@ -51,8 +55,27 @@
 }
 
 @media screen and (min-width: 992px){
+    .jl-menu {
+        height: 110px;
+        display: table;
+        float: left;
+        margin-left: 30px;
+    }
 
+    .jl-menu a {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        display: inline-block;
+        padding: 0 20px;
+        margin-top: 50px;
+        color: #BCBCBC;
+        text-decoration: none;
+        text-transform: lowercase;
+    }
 
+    .jl-menu a:first-child{
+        padding-left: 0;
+    }
 }
 
 @media screen and (min-width: 1200px){
