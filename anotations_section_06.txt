@@ -13,4 +13,6 @@ Video lesson 80.
              var item = document.getElementByClassName('item') --> Pure JS.
 
 Video lesson 81.
-    
+    $(document).ready(function(){...}) is the long form to start the JQuery section;
+    $(function{...}) is the short form;
+    .val() --> method used to return the value.
