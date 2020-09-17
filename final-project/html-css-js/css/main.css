@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;    
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (min-width: 320px){
@@ -60,6 +66,22 @@
 
     .jl-btn-contact:hover {
         background-position-y: -45px;
+    }
+
+    .jl-contact-info {
+        width: 245px;
+        height: 165px;
+        padding: 25px;
+        position: fixed;
+        bottom: 115px;
+        right: 65px;
+        z-index: 200;
+    }
+
+    .jl-social-links {
+        width: 100%;
+        height: 45px;
+        display: block;
     }
 }
 
@@ -136,6 +158,10 @@
 }
 
 /* Utility classes */
+
+.jl-title {
+    font-family: 'Abril Fatface', serif;
+}
 
 .jl-text-green {
     color: #2CCB69;
