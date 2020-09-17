@@ -25,8 +25,18 @@ Video lesson 90.
         - scale(x,y) it's an 2D transform method that can increases or decreases the size of an ellement;
         - scale(x) --> represents the axis X of the element. The value varies between 0.0 and 1.0;
         - scale(y) --> represents the axis Y of the element. The value varies between 0.0 and 1.0;
-        - example: scale(0,1) --> it's saying that the element will have 100%(1.0) of your Y(height) axis and 0%(0.0) of your X(width). 
+        - example: scale(0,1) --> says that the element will have 100%(1.0) of your Y(height) axis and 0%(0.0) of your X(width). 
 
     transform-origin: (axis Y) (axis X) : 
         - it's a property that sets the origin for an element's transformations;
         - example: transform-origin: center left --> it's saying that the element's transformation in the axis Y will stay in the center and in the axis X will grow up to the left.
+
+Video lesson 91.
+    OBS: the teacher put first in the body all the things that has the position value as fixed.
+    Sprite technique: save in an image all the icons of your site;
+    position: fixed in the contact button because the scroll doesn't will not interfere in his page position;
+    background-repeat: no-repeat --> this line makes that the image with the sprite don't repeat the SVG images inside of her;
+        OBS: if your intention is to make a pattern design you just have to don't set the background-repeat.
+        OBS: if you want to repeat the image in just one axis you can set background-repeat: repeat-x or background-repeat: repeat-y.
+    background-position-y: -45px; --> this css line makes the background-image move -45px in the axis Y;
+        OBS: background-position-x also exists.
