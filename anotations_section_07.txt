@@ -40,3 +40,6 @@ Video lesson 91.
         OBS: if you want to repeat the image in just one axis you can set background-repeat: repeat-x or background-repeat: repeat-y.
     background-position-y: -45px; --> this css line makes the background-image move -45px in the axis Y;
         OBS: background-position-x also exists.
+
+Video lesson 92.
+    Utility classes.
