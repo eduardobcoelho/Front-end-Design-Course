@@ -21,4 +21,12 @@ Video lesson 89.
     Animation hover in the menu hiperlink.
 
 Video lesson 90.
-    
+    transform: scale(x,y) : 
+        - scale(x,y) it's an 2D transform method that can increases or decreases the size of an ellement;
+        - scale(x) --> represents the axis X of the element. The value varies between 0.0 and 1.0;
+        - scale(y) --> represents the axis Y of the element. The value varies between 0.0 and 1.0;
+        - example: scale(0,1) --> it's saying that the element will have 100%(1.0) of your Y(height) axis and 0%(0.0) of your X(width). 
+
+    transform-origin: (axis Y) (axis X) : 
+        - it's a property that sets the origin for an element's transformations;
+        - example: transform-origin: center left --> it's saying that the element's transformation in the axis Y will stay in the center and in the axis X will grow up to the left.
