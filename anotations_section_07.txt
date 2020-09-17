@@ -46,3 +46,6 @@ Video lesson 92.
 
 Video lesson 93.
     Making the contact box - part 01.
+
+Video lesson 94.
+    background: transparent url() no-repeat; --> background all in one line.
