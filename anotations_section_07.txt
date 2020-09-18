@@ -51,4 +51,13 @@ Video lesson 94.
     background: transparent url() no-repeat; --> background all in one line.
 
 Video lesson 95.
+    In JavaScript when you say "this" you are refering to the current scope element;
+    Example:
+        var btnContact = document.querySelector('.jl-btn-contact');
+
+        this --> window.
+
+        btnContact.addEventListener('click', function(){
+            this --. btnContact.
+        })
     
